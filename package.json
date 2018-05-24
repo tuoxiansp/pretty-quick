@@ -32,7 +32,7 @@
     "prettier": ">=1.8.0"
   },
   "scripts": {
-    "prepublishOnly": "yarn build",
+    "prepublish": "yarn build",
     "pretty-quick": "./bin/pretty-quick.js",
     "build": "babel src -d dist --copy-files --ignore __tests__",
     "test": "jest",
