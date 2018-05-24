@@ -28,7 +28,8 @@
     "execa": "^0.8.0",
     "find-up": "^2.1.0",
     "ignore": "^3.3.7",
-    "mri": "^1.1.0"
+    "mri": "^1.1.0",
+    "prettier": ">=1.8.0"
   },
   "scripts": {
     "prepublishOnly": "yarn build",
@@ -38,9 +39,6 @@
     "lint": "eslint . --ignore-path=.gitignore",
     "semantic-release": "semantic-release",
     "precommit": "./bin/pretty-quick.js --staged"
-  },
-  "peerDependencies": {
-    "prettier": ">=1.8.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
