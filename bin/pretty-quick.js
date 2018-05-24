@@ -5,7 +5,7 @@
 const chalk = require('chalk');
 const mri = require('mri');
 
-const prettyQuick = require('../').default;
+const prettyQuick = require('../dist').default;
 
 const args = mri(process.argv.slice(2));
 
